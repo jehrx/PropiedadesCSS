@@ -1,0 +1,18 @@
+.contenedor {
+    display: flex; /* Para ponerlos en la misma línea. */ 
+    flex-wrap: wrap; /* Para hacerse hueco (se ponen en filas) cuando la ventana se hace más pequeña */
+    align-content: center;
+    /* align-content: stretch; */ /* Quitar heigth para que se peudan etirar. */
+    /* align-content: flex-start;*/
+   /* align-content: flex-end; */
+   /* align-content: baseline; */
+    height: 300px; 
+    background-color: darkcyan;
+}
+
+.contenedor div{
+    background-color: rgb(238, 255, 0);
+    padding: 20px;
+    margin: 5px;
+    height: 20px;
+}

@@ -1,0 +1,29 @@
+body{
+    transform: rotate(360deg);
+    background-image: url("Kart/carretera.png");
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin: 25%;
+    object-fit: contain;
+    animation-name: cambiaCOLOR;
+    animation-duration: 10s;
+    
+   }
+
+   .mario {
+    height:300px;
+    width: 300px;
+   }
+
+@keyframes cambiaCOLOR{
+    0%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,33 @@
+body{
+    transform: rotate(360deg);
+    background-image: url("Kart/carretera.png");
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin: 25%;
+    object-fit: contain;
+    animation-name: cambioTRASLADO;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backgrounds; */
+    /* animation-fill-mode: both */
+  
+}
+
+   .mario {
+    height:300px;
+    width: 300px;
+   }
+
+@keyframes cambioTRASLADO{
+
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(300%);
+    }
+}

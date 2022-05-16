@@ -1,0 +1,9 @@
+body{
+   /* background-color: aqua; */ 
+    background-image: url("foto/fondo.jpg"); 
+    background-position: 300px 20px;
+    background-attachment: fixed;
+   /* background-attachment: local; */
+   /* background-attachment: scroll; */
+}
+

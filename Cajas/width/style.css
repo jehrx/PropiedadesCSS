@@ -1,0 +1,17 @@
+div{
+  margin: 50px auto;
+  border: 3px solid #000;
+  /* width: auto; */
+  /* width: 500px; */ 
+  width: 50%;
+}
+
+
+p{
+  background-color: red;
+  color: #444;
+  padding: 20px;
+  margin: 20px;
+ 
+}
+
